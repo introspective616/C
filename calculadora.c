@@ -129,7 +129,7 @@ int main() {
             default:
             printf("\nOpção invalida, escolha novamente\n");
         }
-    }while(i != 0);
+    }while(i != 0); //
     switch (i) {
         case 0: {
             printf("\nSaindo...\n");
