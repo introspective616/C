@@ -24,7 +24,8 @@ int main() {
             printf("\nDeseja adicionar mais números para a soma?clique enter no caso de sim e qualquer outra tecla no caso de não\n");
             confirmacao = getc(stdin);
             while(confirmacao == '\n'){
-                printf("\n\t%d + ", c);                    scanf("%d", &num_mais);
+                printf("\n\t%d + ", c);                    
+                scanf("%d", &num_mais);
                 getc(stdin);
                 printf("\n\t%d + %d = %d\n", c, num_mais, c + num_mais);
                 c += num_mais;
